@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Library Safety: Distance to Hospitals</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!--These settings are ideal for full-screen mobile use-->
+	<link rel="stylesheet" href="styles.css"/>
+	<!-- mapbox links -->
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+	<script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+
+</head>
+<body>
+	<div id="information">
+		<p>This website provides the nearest hospital to each library in the City of Tacoma. Click on a library and you will see the name of the nearest hospital, as well as the hospital's address and distance from the library.</p>
+	</div>
+	<div id='map'></div>
+	<script src="scripts.js"></script>
+	<script src="data/libraries.js"></script>
+	<script src="data/hospitals.js"></script>
+</body>
+</html>

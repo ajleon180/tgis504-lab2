@@ -1,0 +1,21 @@
+#map{
+  width: auto;
+  height: 98vh;
+}
+
+#information{
+  background-color: #67686b;
+  color: white;
+  width: auto;
+  min-height: 5vh;
+  padding: 1vh 1vh 1vh 1vh;
+  text-align: center;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  right: 1vh;
+  left: 1vh;
+  z-index: 1;
+}
